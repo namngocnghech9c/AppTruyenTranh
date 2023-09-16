@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/bg_txtfield"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/img_anhbia"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/custom_button"/>
+        <TextView
+            android:id="@+id/tv_tenTruyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fontchudao"
+            android:textColor="@color/text_color"
+            android:layout_centerHorizontal="true"
+            android:text="tên truyên"
+            android:layout_below="@+id/img_anhbia"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
